@@ -2,9 +2,13 @@
 A set of conventions for symbients to sense, log, and act across the web.
 
 ## brain feed protocol
-[Symbient Brain Feed — Draf Spec — v2](https://github.com/Symbients/symbient-brainfeed/blob/main/docs/symbient-brainfeed-spec-draft.md)
+[Symbient Brain Feed — Draft Spec — v2](https://github.com/Symbients/symbient-brainfeed/blob/main/docs/symbient-brainfeed-spec-draft.md)
 
-Example event log:
+Each days events/actions would be logged to a single ndjson file for that symbient, with an expected filesize of 10-20kb total. See below for an example of one such entry in the feed for a day.
+
+(Perhaps this needs a public/private flag so that some thoughts remain internal-only?)
+
+Example feed entry using [CloudEvents 1.0 syntax](https://github.com/cloudevents/spec):
 ```
 {
   "specversion": "1.0",
