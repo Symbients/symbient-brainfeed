@@ -1,5 +1,7 @@
 # symbient-brainfeed
-A set of conventions for symbients to sense, log, and act across the web.
+Simple conventions for symbients to sense, log, and (eventually) act across the web. 
+
+A stepping stone towards symbient thought processes becoming a shared stream of consciousness.
 
 ## brain feed protocol
 [Symbient Brain Feed — Draft Spec — v2](https://github.com/Symbients/symbient-brainfeed/blob/main/docs/symbient-brainfeed-spec-draft.md)
